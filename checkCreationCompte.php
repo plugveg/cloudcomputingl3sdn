@@ -4,11 +4,11 @@ function call_bdd()
     // On essaye d'appeler la Base de Donnée
     try {
         $bdd = new PDO(
-            'mysql:host=c.bddyar2023.postgres.database.azure.com;
+            mysql:host=c.bddyar2023.postgres.database.azure.com;
             dbname=citus;
-            charset:utf8',
-            'citus',
-            'bddyar2023!',
+            user=citus,
+            password=bddyar2023!,
+            sslmode=require,
             [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]
         );
     } catch (Exception $e) {
