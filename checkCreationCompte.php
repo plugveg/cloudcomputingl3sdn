@@ -4,8 +4,9 @@ function call_bdd()
     // On essaye d'appeler la Base de Donnée
     try {
         $bdd = new PDO(
-            mysql:host=c.bddyar2023.postgres.database.azure.com;
-            dbname=citus;
+            mysql:host=c.bddyar2023.postgres.database.azure.com,
+            port=5432,
+            dbname=citus,
             user=citus,
             password=bddyar2023!,
             sslmode=require,
