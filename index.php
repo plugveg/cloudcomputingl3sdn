@@ -12,7 +12,7 @@
 <body>
     <h1>Bienvenue sur ma page web!</h1>
 
-    <form action="https://cloudcomputingyar.azurewebsites.net/checkCreationCompte.php" method="POST">
+    <form action="./checkCreationCompte.php" method="POST">
         <!-- INPUT IDENTIFIANT -->
         <div class="form-group">
             <label>Adresse Email</label>
