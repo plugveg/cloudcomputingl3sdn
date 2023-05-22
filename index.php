@@ -12,11 +12,11 @@
 <body>
     <h1>Bienvenue sur ma page web!</h1>
 
-    <form action="./checkCreationCompte.php" method="POST">
+    <form action="checkCreationCompte.php" method="POST">
         <!-- INPUT IDENTIFIANT -->
         <div class="form-group">
             <label>Adresse Email</label>
-            <input type="email" class="form-control input_user" placeholder="Entrer votre nom d'utilisateur" name="identifiant" required>
+            <input type="email" class="form-control input_user" placeholder="email" name="identifiant" required>
         </div>
         <!-- INPUT MOT DE PASSE -->
         <div class="form-group">
@@ -55,6 +55,5 @@
     // Code PHP ici
     ?>
 
-</body>
-
+</body> 
 </html>
